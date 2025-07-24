@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					}
+				],
+				"name": "romanToInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RomanToInt.sol": "RomanToInt"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RomanToInt.sol": {
+			"keccak256": "0x8de9bf6d2856d352c125763476cd51fa42b7d7bf87b5056d1928b1fc3cbe8a84",
+			"license": "NFT",
+			"urls": [
+				"bzz-raw://3528a8ebd181a9769de33f22b612dd4c117ac031bd50e8af49d7c025d6e0193c",
+				"dweb:/ipfs/QmQdW7NtbZHWoW1eKs4NnFW7EHxmdzWYQYgwmN4DG5uvcD"
+			]
+		}
+	},
+	"version": 1
+}

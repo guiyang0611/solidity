@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "search",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BinarySearch.sol": "BinarySearch"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BinarySearch.sol": {
+			"keccak256": "0x5fa47ced7a796377fa16303ce278f4723bd1bf25009caee9810bcf10d06039cf",
+			"license": "NFT",
+			"urls": [
+				"bzz-raw://a5cfa042b42c0b610dcd27377967a8add9542639b9dcbf47eb6b4e6ac45e9391",
+				"dweb:/ipfs/QmV9k9n53ZMcQAuLqyuNKyTaGSMAfQfzGMbmpQzpjNRXqT"
+			]
+		}
+	},
+	"version": 1
+}

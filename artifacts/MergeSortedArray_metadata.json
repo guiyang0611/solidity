@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "nums1",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "nums2",
+						"type": "uint256[]"
+					}
+				],
+				"name": "mergeSortedArray",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MergeSortedArray.sol": "MergeSortedArray"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MergeSortedArray.sol": {
+			"keccak256": "0xe6f540d3a8238dc85e600414a43b853957ced799bad3db7d5b8902a707e1234a",
+			"license": "NFT",
+			"urls": [
+				"bzz-raw://784ef3a37bf9340fe6c44ad3544207ff5f6b6fe986f5d67ea75e2bb595bcb7d8",
+				"dweb:/ipfs/QmdpbTWvopiT5FHUxVkBaY6zJh8biu58wEzJh43ZJFcVo5"
+			]
+		}
+	},
+	"version": 1
+}
